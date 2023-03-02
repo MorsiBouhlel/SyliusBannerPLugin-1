@@ -177,24 +177,4 @@ sylius_grid:
                         type: delete
 ```
 
-## License and Copyright
-
-tl;dr:
-- Modifications must be shared,
-- It's possible to use this plugin in a commercial project,
-- A commercial license is available.
-
-This project is licensed under [EUPL-1.2](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12). This license implies that if you modify this plugin, you must share those modifications (like AGPL). However, the EUPL-1.2 license applies only on this plugin and this is not viral (like LGPL).
-
-If you don't want to follow this or do not want to use EUPL-1.2 licensed software, you must buy commercial license. [Contact us](docs/SUPPORT.md) for more information.
-
-## Credits
-Created by [Alexandre Balmes](https://alexandre.balmes.co).
-Some files related to slide upload are 99% from [Sylius Core](https://github.com/sylius/sylius). We will see if
-it was a realy good idea to not use the default ImageInterface ;)
-
-## Sponsors
-This project was made possible thanks to the support of:
-
-[![Vanoix.com](https://vanoix.com/assets/vanoix125.png "Vanoix gives me some time")](https://vanoix.com)
 
