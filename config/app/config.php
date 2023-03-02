@@ -24,7 +24,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
             ]
         ]
     ]);
-    dump($containerConfigurator);die;
+    
     $containerConfigurator->extension('knp_gaufrette', [
         'adapters' => [
             'black_sylius_banner' => [
