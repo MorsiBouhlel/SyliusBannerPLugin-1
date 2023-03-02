@@ -70,16 +70,6 @@ __Tip:__ Replace the content of `Homepage/_banner.html.twig` with this snippet a
 events!
 ```
 
-### Quality tools
-
-```bash
-$ docker-compose exec php composer validate --ansi --strict
-$ docker-compose exec php vendor/bin/phpstan analyse -c phpstan.neon -l max src/
-$ docker-compose exec php vendor/bin/psalm
-$ docker-compose exec php vendor/bin/phpspec run --ansi -f progress --no-interaction
-$ docker-compose exec php vendor/bin/phpunit --colors=always
-$ docker-compose exec php vendor/bin/behat --profile docker --colors --strict -vvv --no-interaction
-``` 
 __ProTip__ use `Makefile` ;)
 ## Override
 
