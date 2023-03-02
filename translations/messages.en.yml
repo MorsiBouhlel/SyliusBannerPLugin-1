@@ -1,0 +1,22 @@
+black_sylius_banner:
+    ui:
+        banners: Banners
+        new_banner: New banner
+        create_banner: Create a new banner
+        edit_banner: Update the banner
+
+    form:
+        banner:
+            name:
+                label: Name
+            channels:
+                label: Channels
+            slides:
+                label: Slides
+        slide:
+            translations:
+                label: Translations
+            content:
+                label: Content
+            url:
+                label: Link

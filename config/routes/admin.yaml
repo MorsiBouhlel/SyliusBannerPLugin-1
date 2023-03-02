@@ -1,0 +1,16 @@
+black_sylius_banner_admin_banner:
+    resource: |
+        alias: black_sylius_banner.banner
+        section: admin
+        templates: "@SyliusAdmin\\Crud"
+        redirect: update
+        grid: black_sylius_banner
+        permission: true
+        vars:
+            all:
+                subheader: black_sylius_banner.ui.create_banner
+                templates: 
+                    form: '@BlackSyliusBannerPlugin\Admin\Update\_form.html.twig'
+            index:
+                icon: inbox
+    type: sylius.resource

@@ -1,0 +1,27 @@
+{% form_theme form.slides '@BlackSyliusBannerPlugin/Admin/Update/Slides/_form_theme.html.twig' %}
+
+<h3 class="ui top attached header">Détails</h3>
+
+<div class="ui attached segment">
+    {{ form_errors(form) }}
+
+    <div class="ui two column stackable grid">
+        <div class="column">
+            <div class="ui segment">
+                {{ form_row(form.code) }}
+                {{ form_row(form.name) }}
+            </div>
+        </div>
+        <div class="column">
+            {{ form_row(form.channels) }}
+        </div>
+    </div>
+</div>
+
+<div class="ui hidden divider"></div>
+<h3>{{ form_label(form.slides) }}</h3>
+
+{{ form_widget(form.slides) }}
+
+
+

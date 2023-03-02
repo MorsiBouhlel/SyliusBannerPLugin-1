@@ -1,0 +1,6 @@
+black_sylius_banner_shop:
+    resource: "@BlackSyliusBannerPlugin/config/routes/shop.yaml"
+
+black_sylius_banner_admin:
+    resource: "@BlackSyliusBannerPlugin/config/routes/admin.yaml"
+    prefix: '/%sylius_admin.path_name%'

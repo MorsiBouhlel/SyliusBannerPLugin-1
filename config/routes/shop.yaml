@@ -1,0 +1,7 @@
+black_sylius_banner_shop_banner_partial:
+    path: /_partial/banner/{code}
+    methods: [GET]
+    controller: black_sylius_banner.ui.action.show_banner
+    defaults:
+        _sylius:
+            template: $template
