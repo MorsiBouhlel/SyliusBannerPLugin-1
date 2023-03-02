@@ -68,22 +68,6 @@ bin/console doctrine:migrations:migrate
 
 __Tip:__ Replace the content of `Homepage/_banner.html.twig` with this snippet and use template
 events!
-## Quickstart Installation (docker)
-
-1. Run `composer create-project pocky/modern-plugin-skeleton ProjectName` or clone this project
-
-2. From the plugin skeleton root directory, run the following commands:
-
-```bash
-$ sudo chmod -Rf 777 tests/Application/var
-$	docker-compose exec php php -d memory_limit=-1 /usr/bin/composer install
-$	docker-compose exec nodejs yarn --cwd tests/Application install
-$	docker-compose exec php tests/Application/bin/console doctrine:database:create --if-not-exists -vvv
-$	docker-compose exec php tests/Application/bin/console doctrine:schema:create -vvv
-$	docker-compose exec php tests/Application/bin/console assets:install tests/Application/public -vvv
-$	docker-compose exec nodejs yarn --cwd tests/Application build
-$	docker-compose exec php tests/Application/bin/console cache:warmup -vvv
-$	docker-compose exec php tests/Application/bin/console sylius:fixtures:load -n
 ```
 
 ### Quality tools
